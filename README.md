@@ -61,7 +61,7 @@ You should copy in to this project the files **grid.cpp**, **cpuLogic.cpp**, and
 
 ## Step 1 – plumb the _GameBoard_ methods through to a _GridWindow_ object
 
-The _GameBoard_ object instantiates two _GridWindow_ objects, one for the user (_ _user_) and one for the CPU (_ _cpu_).   The three _GameBoard_ methods that are left for you to implement direct their calls into either the _ _user_ object or the _ _cpu_ object based on the value of the _forUser_ parameter:
+The _GameBoard_ object instantiates two _GridWindow_ objects, one for the user (_ _user_) and one for the CPU (_ _cpu_).   The three _GameBoard_ methods that are left for you to implement direct their calls into either the _ _user_ object or the _ _cpu_ object based on the value of the _forUser_ parameter (`forUser == true` when dealing with `_user`, `forUser == false` when dealing with `_cpu`):
 
 Your job in this step is to add implementations to **gameBoard.cpp** for the following methods.
 
