@@ -57,7 +57,7 @@ The following files are supplied for you:
 
 *	**cursesWindow.cpp** – This file implements a set of C++ classes that wrap the functionality of the _ncurses_ library.    This file has been completed for you and should not be modified.
 
-In your repo you will find a PowerPoint [file](LAB6-Explained.pptx) to that explains the steps and grading rubric.
+In your repo you will find a PowerPoint file: **LAB6-Explained.pptx** that explains the steps and grading rubric.
 
 You should copy in to this project the files **grid.cpp**, **cpuLogic.cpp**, and **cpuLogic.h** that wrote in Lab 5.
 
